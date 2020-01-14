@@ -1,0 +1,57 @@
+<html>
+	<head><title>Sign up</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</head>
+<body>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+	
+	<h2> Sign up for our launch</h2>
+	<div class="container">
+	<form class = "emailform" action="thankyou.html" method="get">
+	<div class="form-group">
+	<label for="first" >First Name: </label><br>
+	<input type="text" name="first" placeholder="Enter your first name" size="35" >
+	</div>
+	<div class="container">
+	<div class="form-group">
+	<label for="last" >Last Name: </label><br>
+	<input type="text" name="lastt" placeholder="Enter your last name" size="35" >
+	</div>
+	<div class="form-group">
+	<label for="email" >Email: </label><br>
+	<input type="email" name="email" placeholder="Enter your email address" size="35" >
+	<small id="email-help"  class="form-text text-muted">We'll never share your email id's with anyone</small>
+	</div>
+	<div class="form-group">
+	<label for="email" >Password: </label><br>
+	<input type="password" name="email" placeholder="Enter your password" size="35" >
+	<small id="password-help"  class="form-text text-muted">We'll protect your passwords by encrypting them</small>
+	</div>
+	<div class="form-group">
+	<label for="email" >Gender: </label><br>
+	<Select class="col-xs-2" id="selectGender">
+	<option>Male</option>
+	<option>Female</option>
+	<option>Rather Not Specify</option>
+	</select>
+	</div><br/>
+	<div class="form-check">
+	<label class="form-check-label">
+	<input type="checkbox" class="form-check-input">Keep me signed in </label>
+	</div>
+	<!-- <div class="form-group">
+	<label for="Input file" >File Input:</div>
+	<input type="file" disabled= "disabled" id="exampleInputFile" placeholder="Plx">-->
+	<!--<p class="help-block">Currently its disabled</p>
+	</div>--><br>
+	<div class="form-group">
+	<input id="sub" class="btn btn-success btn-lg" type="submit"/>
+	</div>
+	
+	</div>
+
+	</form>
+</body>
+</html>
